@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahi</title>
+    <link rel="stylesheet" href="CSS/index.CSS">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <script src="https://kit.fontawesome.com/e40efcfb88.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="popup" style="display:none;">
+        <p>Thank you for your message! I'll be in touch with you soon... </p>
+    </div>
+    <div class="main">
+        <div class="header">
+            <div class="subhead">
+                <div id="logo"> <span style="color: rgb(255, 0, 98);">M </span> <span>ahi</span></div>
+            </div>
+            <div class="subhead1">
+                <i class="fas fa-times"></i>
+                <div class="head"><a href="#"> Home </a></div>
+                <div class="head"><a href="#about"> About </a></div>
+                <div class="head"><a href="#services">Services </a></div>
+                <div class="head"><a href="#portpholio">Portpholio</a></div>
+                <div class="head"><a href="#contact">Contact </a></div>
+
+            </div>
+            <div class="side">
+                <a href="./Images/Rathod_Mahesh_Resume.pdf"><i class="fa-solid fa-file-arrow-down"></i></a>
+                <i class="fas fa-bars menu"></i>
+            </div>
+        </div>
+        <div class="headerbodypart">
+            <div class="headertext">
+                <p>Software Engineer</p>
+                <h1 style="color: aliceblue;">Hi, I'm <span style="color: rgb(255,0,98);">Mahesh</span> <br> Rathod From
+                    Maharashtra</h1>
+
+                <div class="buttons">
+                    <a href="#portpholio"><button class="btn btn2">Portpholio <i
+                                class="fa-solid fa-angle-down"></i></button> </a>
+
+                    <a href="./Images/Rathod_Mahesh_Resume.pdf"><button class="resumeBtn">Resume <i
+                                class="fa-solid fa-file-arrow-down"></i></button> </a>
+                </div>
+
+            </div>
+            <img src="/Images/bg.png" alt="Mahi">
+        </div>
+    </div>
+    <!-- --------------------- About --------------------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/Images/user1.jpg" width="100%" style="border-radius:10px;">
+                </div>
+                <div class="about-col-2">
+                    <h2 style="font-size:40px;">About Me</h2>
+                    <p>My Name is Mahesh Baban Rathod. I was Completed my
+                        Graduation from <br><b style="color:skyblue ;"> Mahatma Gandhi Mission's College of
+                            Engineering Nanded </b> which comes under the <b style="color:aquamarine ;">Dr. Babasaheb
+                            Ambedkar Technology University Lonere. </b>
+                        Currently I am <b>fresher</b> and Looking for job.<br>
+                        I was did many mini projects and worked as project leader. <br>
+                        my strength is my passion that i was following.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>AI/ML</span><br>Analysing Data and Making Models</li>
+                            <li><span>Web Devlopment</span><br>Designing websites</li>
+                            <li><span>App Devlopment</span><br>Designing Web / Mobile Apps</li>
+                            <li><span>Competitive Programming</span><br>solving Competitive Problems</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024-Current</span><br>fresher</li>
+                            <!-- <li><span>2019-2020</span><br>Designing websites</li> -->
+                            <!-- <li><span>App Devlopment</span><br>Designing Web / Mobile Apps</li> -->
+                            <!-- <li><span>Competitive Programming</span><br>solving Competitive Problems</li> -->
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2018</span><br>SSC from AKV Shevgaon</li>
+                            <li><span>2020</span><br>HSC from Deogiri College Aurangabad</li>
+                            <li><span>2024</span><br>BTech from MGM's COE Nanded</li>
+                            <!-- <li><span>Competitive Programming</span><br>solving Competitive Problems</li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------------------------------------- Services ---------------------------------------------- -->
+    <div id="services">
+        <div class="container">
+            <h2 style="font-size:40px;">My Services</h2>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2> Web Design</h2>
+                    <p> we were provides the Web-design for any organization
+                        like Universities, College, Industries, or for Personal Portpholio.
+                    </p>
+                    <a href="#"> Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-android"></i>
+                    <h2> App Design</h2>
+                    <p> we were provides the development of cross platform app for any organization
+                        like Universities, College, Industries, or for Personal Portpholio.
+                    </p>
+                    <a href="#"> Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa fa-recycle" aria-hidden="true"></i>
+                    <h2> Data Analytics </h2>
+                    <p> Analysing of Big data, and modeling the Machine
+                    </p>
+                    <a href="#"> Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------------------------------------- Portpholio ---------------------------------------------- -->
+
+    <div id="portpholio">
+        <div class="container">
+            <h2 style="font-size:40px;">My Work</h2>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/work-1.png">
+                    <div class="layer">
+                        <h3> Graphical Password Authentication System</h3>
+                        <p>This System is advanced version of Authentication and totaly replace traditional text
+                            password we used so far for Authentication.
+                        </p>
+                        <a href="https://github.com/Mahi-Rathod/Graphical-Password-Authentication-System"><i
+                                class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="Images/work-2.png">
+                    <div class="layer">
+                        <h3>Event Management System</h3>
+                        <p>Swastik The Event Management System is Online Platform for Booking Events and Free from all
+                            the work you have to do offline.
+                        </p>
+                        <a href="https://github.com/Mahi-Rathod/Swastik-The-Event-Management-System"><i
+                                class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="Images/work-3.png">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The App Connects you to the talented people around the world.
+                            Download it from play Store
+                        </p>
+                        <a href="https://github.com/Mahi-Rathod/E-Commerce-Store"><i class="fa fa-external-link"
+                                aria-hidden="true"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <a href="https://github.com/Mahi-Rathod?tab=repositories" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- ---------------------------------------------- Contact ---------------------------------------------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subb-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i> rathodmaheshofficial21@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +91 8010013313</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/___._mahi_.___/" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.geeksforgeeks.org/user/rathod_mahesh123/" target="_blank"><img
+                                src="./Images/geeksforgeeks.png" alt=""></a>
+                        <a href="https://www.linkedin.com/in/mahesh-rathod-502787209/" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.github.com/Mahi-Rathod/" target="_blank"><i
+                                class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="./Images/Rathod_Mahesh_Resume.pdf" class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" id="" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Let's Connect</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Mahi. made by Mahesh Rathod</p>
+        </div>
+    </div>
+
+    <Script src="JS/app.js"></Script>
+    <script>
+        function showPopup() {
+            var popup = document.getElementById('popup');
+            popup.style.display = 'block';
+            setTimeout(function () {
+                popup.style.animation = 'fadeOut 0.5s ease forwards';
+                setTimeout(function () {
+                    popup.style.display = 'none';
+                }, 500);
+            }, 5000);
+        }
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyUSQcDWAx9sLqJwd9JFdZajolfjKDSib_O5iLpUkf_kRSDWyGATgf1-o0OU7qm2Jb4/exec'
+        const form = document.forms['submit-to-google-sheet']
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => setTimeout(function () {
+                    showPopup();
+                }, 100))
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
