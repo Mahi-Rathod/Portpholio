@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Mahesh Rathod logo">
+  <rect width="64" height="64" rx="14" fill="#0e0e10"/>
+  <rect x="1.5" y="1.5" width="61" height="61" rx="12.5" fill="none" stroke="#00d4ff" stroke-opacity="0.45" stroke-width="1.5"/>
+  <path d="M14 46 V18 L26 36 L38 18 V46" fill="none" stroke="#00d4ff" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M44 18 H52 V26 H44 Z M44 30 H52 V38 H44 Z M44 42 H52 V46 H44 Z" fill="#f59e0b"/>
+</svg>
